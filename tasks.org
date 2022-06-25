@@ -1,0 +1,5 @@
+* Up-to-date steps for creating a new Django project [0/1]
+- [ ] set up virtual env (`python -m venv venv`)
+  - currently prefer venv because of familiarity
+  - https://www.youtube.com/watch?v=MGTX5qI2Jts
+    - virtualenv faster than venv
