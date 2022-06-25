@@ -1,2 +1,2 @@
-# logblog
+# bloglog
 My Personal Django Blog
