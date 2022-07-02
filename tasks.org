@@ -6,6 +6,9 @@
   - https://www.youtube.com/watch?v=MGTX5qI2Jts
     - virtualenv faster than venv
 - [ ] add venv to .gitignore (not necessary if using python default gitignore)
-- [ ] create requirements.txt  
 - [ ] pip install django
-- [ ] django-admin startproject    
+- [ ] django-admin startproject
+- [ ] pip install python-decouple  
+- [ ] remove secret key from settings.py
+  - from decouple import config
+    SECRET_KEY = config('SECRET_KEY')
