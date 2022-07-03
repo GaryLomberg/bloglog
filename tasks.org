@@ -12,5 +12,7 @@
 - [X] remove secret key from settings.py
   - from decouple import config
     SECRET_KEY = config('SECRET_KEY')
+- [ ] pip install split_settings (set up localhost)
+- [ ] configure DB     
 - [ ] python manage.py startapp bloglog
 - [ ] add new app to settings.py
