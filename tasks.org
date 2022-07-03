@@ -1,14 +1,16 @@
-* Up-to-date steps for creating a new Django project [0/1]
-- [ ] create repo on git selecting python .gitignore config
-- [ ] clone repo  
-- [ ] set up virtual env (`python -m venv venv`)
+* Up-to-date steps for creating a new Django project [8/8]
+- [X] create repo on git selecting python .gitignore config
+- [X] clone repo  
+- [X] set up virtual env (`python -m venv venv`)
   - currently prefer venv because of familiarity
   - https://www.youtube.com/watch?v=MGTX5qI2Jts
     - virtualenv faster than venv
-- [ ] add venv to .gitignore (not necessary if using python default gitignore)
-- [ ] pip install django
-- [ ] django-admin startproject
-- [ ] pip install python-decouple  
-- [ ] remove secret key from settings.py
+- [X] add venv to .gitignore (not necessary if using python default gitignore)
+- [X] pip install django
+- [X] django-admin startproject
+- [X] pip install python-decouple  
+- [X] remove secret key from settings.py
   - from decouple import config
     SECRET_KEY = config('SECRET_KEY')
+- [ ] python manage.py startapp bloglog
+- [ ] add new app to settings.py
